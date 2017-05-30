@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AbsenTakjil
 {
-    public partial class Form1 : Form
+    public partial class frmAdministrasi : Form
     {
-        public Form1()
+        public frmAdministrasi()
         {
             InitializeComponent();
         }
@@ -22,10 +22,12 @@ namespace AbsenTakjil
             Close();
         }
 
-        private void btnAdministrasi_Click(object sender, EventArgs e)
+        private void frmAdministrasi_Load(object sender, EventArgs e)
         {
-            frmLogin frm = new frmLogin();
-            frm.Show();
+            // TODO: This line of code loads data into the 'databaseDataSet.Karyawan' table. You can move, or remove it, as needed.
+            this.karyawanTableAdapter.Fill(this.databaseDataSet.Karyawan);
+
         }
+
     }
 }

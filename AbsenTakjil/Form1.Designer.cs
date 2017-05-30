@@ -33,11 +33,11 @@
             this.txtBarcode = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.txtPesan3 = new System.Windows.Forms.TextBox();
+            this.txtPesan2 = new System.Windows.Forms.TextBox();
+            this.txtPesan1 = new System.Windows.Forms.TextBox();
             this.btnAdministrasi = new System.Windows.Forms.Button();
             this.btnTutup = new System.Windows.Forms.Button();
-            this.txtPesan1 = new System.Windows.Forms.TextBox();
-            this.txtPesan2 = new System.Windows.Forms.TextBox();
-            this.txtPesan3 = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
@@ -96,6 +96,42 @@
             this.panel2.Size = new System.Drawing.Size(596, 375);
             this.panel2.TabIndex = 1;
             // 
+            // txtPesan3
+            // 
+            this.txtPesan3.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtPesan3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPesan3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesan3.ForeColor = System.Drawing.Color.Yellow;
+            this.txtPesan3.Location = new System.Drawing.Point(17, 122);
+            this.txtPesan3.Name = "txtPesan3";
+            this.txtPesan3.Size = new System.Drawing.Size(555, 37);
+            this.txtPesan3.TabIndex = 4;
+            this.txtPesan3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPesan2
+            // 
+            this.txtPesan2.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtPesan2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPesan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesan2.ForeColor = System.Drawing.Color.Yellow;
+            this.txtPesan2.Location = new System.Drawing.Point(17, 72);
+            this.txtPesan2.Name = "txtPesan2";
+            this.txtPesan2.Size = new System.Drawing.Size(555, 37);
+            this.txtPesan2.TabIndex = 3;
+            this.txtPesan2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // txtPesan1
+            // 
+            this.txtPesan1.BackColor = System.Drawing.SystemColors.InfoText;
+            this.txtPesan1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPesan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtPesan1.ForeColor = System.Drawing.Color.Yellow;
+            this.txtPesan1.Location = new System.Drawing.Point(17, 22);
+            this.txtPesan1.Name = "txtPesan1";
+            this.txtPesan1.Size = new System.Drawing.Size(555, 37);
+            this.txtPesan1.TabIndex = 2;
+            this.txtPesan1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // btnAdministrasi
             // 
             this.btnAdministrasi.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -118,42 +154,6 @@
             this.btnTutup.UseVisualStyleBackColor = true;
             this.btnTutup.Click += new System.EventHandler(this.btnTutup_Click);
             // 
-            // txtPesan1
-            // 
-            this.txtPesan1.BackColor = System.Drawing.SystemColors.InfoText;
-            this.txtPesan1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPesan1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesan1.ForeColor = System.Drawing.Color.Yellow;
-            this.txtPesan1.Location = new System.Drawing.Point(17, 22);
-            this.txtPesan1.Name = "txtPesan1";
-            this.txtPesan1.Size = new System.Drawing.Size(555, 37);
-            this.txtPesan1.TabIndex = 2;
-            this.txtPesan1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtPesan2
-            // 
-            this.txtPesan2.BackColor = System.Drawing.SystemColors.InfoText;
-            this.txtPesan2.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPesan2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesan2.ForeColor = System.Drawing.Color.Yellow;
-            this.txtPesan2.Location = new System.Drawing.Point(17, 72);
-            this.txtPesan2.Name = "txtPesan2";
-            this.txtPesan2.Size = new System.Drawing.Size(555, 37);
-            this.txtPesan2.TabIndex = 3;
-            this.txtPesan2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // txtPesan3
-            // 
-            this.txtPesan3.BackColor = System.Drawing.SystemColors.InfoText;
-            this.txtPesan3.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtPesan3.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPesan3.ForeColor = System.Drawing.Color.Yellow;
-            this.txtPesan3.Location = new System.Drawing.Point(17, 122);
-            this.txtPesan3.Name = "txtPesan3";
-            this.txtPesan3.Size = new System.Drawing.Size(555, 37);
-            this.txtPesan3.TabIndex = 4;
-            this.txtPesan3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -165,7 +165,7 @@
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Absen Takjil dan Makan Siang";
+            this.Text = "Absen Kupon Takjil dan Makan Siang";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
